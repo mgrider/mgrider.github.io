@@ -77,7 +77,7 @@
 
     // create atToolkitContext
     var arToolkitContext = new THREEx.ArToolkitContext({
-        cameraParametersUrl: 'ap-url.patt',
+        cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../data/data/camera_para.dat',
         detectionMode: 'mono',
         maxDetectionRate: 30,
         canvasWidth: 80*3,
